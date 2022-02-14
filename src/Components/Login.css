@@ -1,0 +1,40 @@
+@font-face {
+font-family: "graphicblack";
+src: url("../Fonts/Graphik-Black.ttf");
+}
+
+@font-face {
+font-family: "graphicbold";
+src: url("../Fonts/Graphik-Bold.ttf");
+}
+
+@font-face {
+font-family: "graphicmedium";
+src: url("../Fonts/Graphik-Medium.ttf");
+}
+
+@font-face {
+font-family: "graphicregular";
+src: url("../Fonts/Graphik-Regular.ttf");
+}
+
+.heading{
+    font-family: graphicmedium;
+    text-shadow: 2px 2px 8px #00ff2a;
+
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+    overflow-y: hidden;
+}
+
+.mainContainer{
+    border: 2px solid black;
+    box-shadow: 4px 4px 16px 2px black;
+    
+}
